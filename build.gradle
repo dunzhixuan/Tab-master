@@ -22,6 +22,31 @@ allprojects {
     }
 }
 
+ext{
+
+    android = [
+            compileSdkVersion: 26,
+            buildToolsVersion: "27.0.2",
+            minSdkVersion    : 21,
+            targetSdkVersion : 26
+    ]
+
+    androidSupportVersion = "27.0.2"
+
+    dependencies = [
+            "support-v4"              : "com.android.support:support-v4:" + androidSupportVersion,
+            "support-core"            : "com.android.support:support-core-utils:" + androidSupportVersion,
+            "appcompat-v7"            : "com.android.support:appcompat-v7:" + androidSupportVersion,
+            "support-annotations"     : "com.android.support:support-annotations:" + androidSupportVersion,
+            "multidex"                : "com.android.support:multidex:1.0.2",
+            "support-design"          : "com.android.support:design:" + androidSupportVersion,
+            "recycleview-v7"          : "com.android.support:recyclerview-v7:" + androidSupportVersion,
+            "rxandroid"               : "io.reactivex:rxandroid:1.2.1",
+            "rxjava"                  : "io.reactivex:rxjava:1.2.3",
+            "butterknife"             : "com.jakewharton:butterknife:7.0.1",
+    ]
+}
+
 task clean(type: Delete) {
     delete rootProject.buildDir
 }

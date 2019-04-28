@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="fixed_min_width">120dp</dimen>
+    <dimen name="fixed_min_width_small_views">104dp</dimen>
+    <dimen name="fixed_max_width">168dp</dimen>
+    <dimen name="fixed_width_padding">12dp</dimen>
+
+    <dimen name="fixed_height">56dp</dimen>
+    <dimen name="fixed_no_title_icon_container_height">42dp</dimen>
+    <dimen name="fixed_no_title_icon_container_width">56dp</dimen>
+    <dimen name="fixed_no_title_icon_height">32dp</dimen>
+    <dimen name="fixed_no_title_icon_width">32dp</dimen>
+    <dimen name="fixed_height_top_padding_inactive">2dp
+    </dimen><!-- 8(Top Padding) - 12/2(extra padding due to badges) = 2 -->
+    <dimen name="fixed_height_top_padding_active">0dp
+    </dimen><!-- 6(Top Padding) - 12/2(extra padding due to badges) = 0 -->
+    <dimen name="fixed_height_bottom_padding">10dp</dimen>
+
+    <dimen name="fixed_label_active">14sp</dimen>
+    <dimen name="fixed_label_inactive">12sp</dimen>
+    <item name="fixed_label_active_to_inactive_ratio" format="float" type="dimen">0.857</item>
+
+    <dimen name="fixed_icon_grid">24dp</dimen>
+    <dimen name="fixed_icon_badge_grid_height">36dp
+    </dimen><!-- this adds 6 dp extra to top and bottom icon -->
+    <dimen name="fixed_icon_badge_grid_width">48dp
+    </dimen><!-- this adds 6 dp extra to top and bottom icon -->
+
+
+    <dimen name="shifting_min_width_active">96dp</dimen>
+    <dimen name="shifting_max_width_active">168dp</dimen>
+    <dimen name="shifting_min_width_inactive">64dp</dimen>
+    <dimen name="shifting_max_width_inactive">96dp</dimen>
+    <dimen name="shifting_width_custom_padding">6dp</dimen>
+
+    <dimen name="shifting_height">56dp</dimen>
+    <dimen name="shifting_no_title_icon_container_height">42dp</dimen>
+    <dimen name="shifting_no_title_icon_container_width">56dp</dimen>
+    <dimen name="shifting_no_title_icon_height">32dp</dimen>
+    <dimen name="shifting_no_title_icon_width">32dp</dimen>
+    <dimen name="shifting_height_bottom_padding_inactive">16dp
+    </dimen><!-- not used because in inactive state text-view will be hidden and for icon top padding would be enough -->
+    <dimen name="shifting_height_bottom_padding_active">10dp</dimen>
+    <dimen name="shifting_height_top_padding_active">0dp
+    </dimen><!-- 6(Top padding) - 12/2(extra padding due to badges) = 0 -->
+    <dimen name="shifting_height_top_padding_inactive">10dp
+    </dimen><!-- 56(total) - 24(icon) - 16(bottom padding inactive) = 16 ||| 16 - 12/2(extra padding due to badges)  = 10-->
+
+    <dimen name="shifting_label">14sp</dimen>
+
+
+    <dimen name="shifting_icon_grid">24dp</dimen>
+    <dimen name="shifting_icon_badge_grid_height">36dp</dimen>
+    <dimen name="shifting_icon_badge_grid_width">48dp</dimen>
+
+    <dimen name="bottom_navigation_elevation">8dp</dimen>
+    <dimen name="bottom_navigation_height">56dp</dimen>
+    <dimen name="bottom_navigation_padded_height">64dp</dimen>
+    <dimen name="bottom_navigation_top_margin_correction">-8dp</dimen><!-- 64 - 56 = 8 -->
+
+    <dimen name="badge_text_size">12sp</dimen><!-- 10 -->
+    <dimen name="badge_corner_radius">13dp</dimen><!-- 15 -->
+    <dimen name="badge_width_padding">4dp</dimen><!-- 4 -->
+    <dimen name="badge_height_padding">1dp</dimen><!-- 1 -->
+    <dimen name="badge_top_margin">2dp</dimen><!-- 2 -->
+
+    <dimen name="bottomTab_height">50dp</dimen>
+    <!-- poisearch -->
+    <dimen name="poisearchlist_item_height">50dp</dimen>
+
+    <!-- leave -->
+    <dimen name="calendar_day_headers_paddingbottom">4dp</dimen>
+
+    <!-- textsize -->
+
+    <!-- pull view -->
+
+    <!-- dialog -->
+    <dimen name="dialog_radius">5dp</dimen>
+    <dimen name="height_dialog_button">45dp</dimen>
+
+    <!-- edittext -->
+    <dimen name="edittext_margin">10dp</dimen>
+
+    <!-- Splash -->
+    <dimen name="margin_bottom_txt_login">130dp</dimen>
+
+
+    <!-- Sign -->
+    <!-- travel -->
+    <!-- Notice -->
+    <!-- contact -->
+
+    <!-- Leave -->
+    <dimen name="scale_leave_tip">40dp</dimen>
+    <dimen name="scale_leave_img_time">20dp</dimen>
+    <!-- schedule -->
+    <dimen name="height_min_schedule_adapter">80dp</dimen>
+
+    <!-- main view -->
+
+    <!-- photo -->
+    <dimen name="size_left_takephoto_button">40dp</dimen>
+
+    <!-- calendar -->
+    <dimen name="padding_text">6dp</dimen>
+    <dimen name="scale_reload_pic">120dp</dimen>
+
+    <!-- crash -->
+    <dimen name="margin_bottom_crash_button">100dp</dimen>
+
+    <!-- gesturelock -->
+    <dimen name="size_gesturepwd_create_lockview">280dp</dimen>
+    <dimen name="margin_right_gesturepwd_create_text">40dp</dimen>
+    <dimen name="margin_left_gesturepwd_create_text">40dp</dimen>
+    <dimen name="height_gesturepwd_creat_gap3">8dp</dimen>
+    <dimen name="height_gesturepwd_creat_gap2">20dp</dimen>
+    <dimen name="height_gesturepwd_creat_gap1">30dp</dimen>
+    <dimen name="size_gesturepwd_setting_preview">6dp</dimen>
+    <dimen name="height_gesturepwd_creat_button_gap4">75dp</dimen>
+    <dimen name="size_gesturepwd_setting_preview_linearlayout">40dp</dimen>
+    <dimen name="size_gesturepwd_unlock_face">50dp</dimen>
+    <dimen name="size_gesturepwd_setting_preview_linearlayout_padding">5dp</dimen>
+    <dimen name="height_gesturepwd_create_botton">60dp</dimen>
+    <!-- workflowtagview -->
+
+    <dimen name="padding_workflowtag_between_width">10dp</dimen>
+    <dimen name="padding_workflowtag_between_height">4dp</dimen>
+    <dimen name="sale_product_price">115dp</dimen>
+
+
+    <!-- new plan -->
+    <dimen name="common_layout_padding">15dp</dimen>
+    <dimen name="layout_title_edittext_padding">15dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+</resources>

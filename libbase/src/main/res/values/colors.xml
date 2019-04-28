@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 分割线颜色-->
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="grid_diver">#d7d7d7</color>
+    <color name="mts_diver">#7fd5d5d5</color>
+    <color name="mts_background_navigation">#fff6f6f6</color>
+    <color name="mts_navigation_diver">#ffc8c8c8</color>
+    <color name="mts_background">#f3f3f3</color>
+</resources>
+
