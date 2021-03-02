@@ -1,8 +1,8 @@
 package com.dunzhixuan.app.libbase.headerbar;
 
 import android.graphics.Color;
-import android.support.annotation.ColorInt;
-import android.support.annotation.FloatRange;
+import androidx.annotation.ColorInt;
+import androidx.annotation.FloatRange;
 import android.view.View;
 
 import java.util.HashMap;
